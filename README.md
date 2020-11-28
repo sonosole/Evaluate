@@ -3,7 +3,7 @@ Evaluate the model's performance with some parameters like
 + Accuracy
 + Precision
 + Recall
-+ F1score
++ F1 score
 
 and finally plot the figures of some useful parameters.
 
