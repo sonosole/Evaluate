@@ -28,7 +28,11 @@ and finally plot the figures of some useful parameters.
 
 # Example
 ```matlab
->> evaluate(randn(5e4,1)*2+3.0,randn(6e4,1)*3-5.0,100);
+>> npieces = 100
+>> positive_data = randn(5e4,1)*2+3.0;
+>> negative_data = randn(6e4,1)*3-5.0;
+>> evaluate(positive_data, negative_data, npieces);
 ```
+Just make sure that the positive data is on the right side of negative data.
 
 ![plots](./doc/performance.png)
