@@ -4,9 +4,11 @@ Evaluate the model's performance with some parameters like
 + Precision
 + Recall
 + F1score
+
 and finally plot the figures of some useful parameters.
+
 # Usage
-```
+```matlab
 % -------------------------------------------------------
 % [t,Accuracy,Precision,Recall,F1score] = evaluate(x1,x2,n)
 % -------------------------------------------------------
@@ -17,8 +19,8 @@ and finally plot the figures of some useful parameters.
 % -------------------------------------------------------
 % outputs:
 %   t         -- X-axis of threshold
-%	Accuracy  -- Accuracy  of positive data
-%	Precision -- Precision of positive data
+%   Accuracy  -- Accuracy  of positive data
+%   Precision -- Precision of positive data
 %   Recall    -- Recall  of positive data
 %   F1score   -- F1score of positive data
 % -------------------------------------------------------
